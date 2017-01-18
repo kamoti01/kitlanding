@@ -42,6 +42,179 @@
       </div>
     </nav>
     <div class="container-fluid" ng-view>
+      
+<header>
+	<div class="header-statement-container">
+		<div id="kit-header"> 
+			<h1 class="kit-header">
+				<a href="#/" title="KiT">KiT</a>
+			</h1>
+		</div>
+		<div id="statement">
+			<h2>Who do you want to keep in touch with?</h2>
+		</div>
+	</div>
+</header>
+<section id="home-section">
+	<ul style = "list-style:none;justify-content: left;" class="kit-apps list-inline">
+		<div class="row">
+			<div class="col-md-2 hidden-col">
+				<li></li>
+			</div>
+			<div class="col-md-2">
+				<a href="http://www.kit-web-0.herokuapp.com" title="restaurants">
+					<li>
+						<i class="fa fa-cutlery"></i > 
+						<h4>KiT Restaurants</h4> 
+						<p>Grab a meal with friends at local restaurants! Pick a restaurant nearby. Blah blah blah. Keep in Touch.</p> 
+						<div class="redirect-icon"> 
+							<i class="fa fa-arrow-circle-o-right"></i>
+						</div>
+					</li> 
+				</a>
+			</div>
+			<div class="col-md-2">
+				<a href="http://www.kit-web-0.herokuapp.com" title="cafes">
+					<li>
+						<i class="fa fa-coffee"></i> 
+						<h4>KiT Cafes</h4> 
+						<p>Grab coffee with friends at local cafes! Pick a coffee shop nearby. Blah blah blah. Keep in Touch.</p> 
+						<div class="redirect-icon-two"> 
+							<i class="fa fa-arrow-circle-o-right"></i>
+						</div>
+					</li>
+				</a>
+			</div>
+			<div class="col-md-2">
+				<a href="http://www.kit-web-0.herokuapp.com" title="meetup">
+					<li> 
+						<i class="fa fa-group"></i> 
+						<h4>KiT Meetup</h4> 
+						<p>Meet up with friends at local places! Pick a meeting place nearby. Blah blah blah. Keep in Touch.</p> 
+						<div class="redirect-icon-two"> 
+							<i class="fa fa-arrow-circle-o-right"></i>
+						</div>
+					</li>
+				</a>
+			</div>
+			<div class="col-md-2">
+				<a href="http://www.kit-web-0.herokuapp.com" title="other">
+					<li>
+						<i class="fa fa-group"></i> 
+						<h4>KiT Other</h4> 
+						<p>Meet up with friends at local places! Pick a place nearby. Blah blah blah. Keep in Touch.</p>
+						<div class="redirect-icon-two"> 
+							<i class="fa fa-arrow-circle-o-right"></i>
+						</div> 
+					</li>
+				</a>
+			</div>
+			<div class="col-md-2 hidden-col">
+				<li></li>
+			</div>
+		</div>
+	</ul>
+	<div class="scroll-down-arrow">
+		<a href="" ng-click="gotoBlog('blog-section')">
+			<i class="fa fa-angle-down fa-3x"></i>
+		</a>
+	</div>
+</section>
+
+<div class="row">
+<section id="blog-section" class="col-sm-12 col-md-12">
+	<h1>Our Blogs</h1>
+	<ul style = "list-style:none;justify-content: left;" class="kit-apps-two list-inline">
+		<div class="row">
+			<div class="col-md-1 hidden-col"></div>
+			<div class="col-sm-12 col-md-4">
+				<a href="http://www.kit-web-0.herokuapp.com" title="restaurants">
+					<li>
+						<img src="/images/nandos.jpg"> 
+						<h4>KiT Restaurants</h4> 
+						<p>Blog Entry here... Grab a meal with friends at local restaurants! Pick a restaurant nearby. Blah blah blah. Keep in Touch.</p> 
+						<div class="redirect-icon-two"> 
+							<i class="fa fa-arrow-circle-o-right"></i>
+						</div>
+					</li> 
+				</a>
+			</div>
+			<div class="col-md-2 hidden-col"></div>
+			<div class="col-sm-12 col-md-4">
+				<a href="http://www.kit-web-0.herokuapp.com" title="cafes">
+					<li>
+						<img src="/images/coffee-shop.jpg"> 
+						<h4>KiT Cafes</h4> 
+						<p>Blog Entry here... Grab coffee with friends at local cafes! Pick a coffee shop nearby. Blah blah blah. Keep in Touch. Add some more stuff here...</p> 
+						<div class="redirect-icon-two"> 
+							<i class="fa fa-arrow-circle-o-right"></i>
+						</div>
+					</li>
+				</a>
+			</div>
+			<div class="col-md-1 hidden-col"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-1 hidden-col"></div>
+			<div class="col-sm-12 col-md-4">
+				<a href="http://www.kit-web-0.herokuapp.com" title="meetup">
+					<li> 
+						<img src="/images/park.jpg">
+						<h4>KiT Meetup</h4> 
+						<p> Blog Entry here... Meet up with friends at local places! Pick a meeting place nearby. Blah blah blah. Keep in Touch.</p> 
+						<div class="redirect-icon-two"> 
+							<i class="fa fa-arrow-circle-o-right"></i>
+						</div>
+					</li>
+				</a>
+			</div>
+			<div class="col-md-2 hidden-col"></div>
+			<div class="col-sm-12 col-md-4">
+				<a href="http://www.kit-web-0.herokuapp.com" title="other">
+					<li>
+						<img src="/images/bowlingpins.jpg"> 
+						<h4>KiT Games</h4> 
+						<p>Blog Entry here... Meet up with friends at local places! Pick a place nearby, play fun games. Blah blah blah. Keep in Touch.</p>
+						<div class="redirect-icon-two"> 
+							<i class="fa fa-arrow-circle-o-right"></i>
+						</div>
+					</li>
+				</a>
+			</div>
+			<div class="col-md-1 hidden-col"></div>
+		</div>
+	</ul>
+	<div class="scroll-down-arrow-two">
+		<a href="" ng-click = gotoBlog('about-section')>
+			<i class="fa fa-angle-down fa-3x"></i>
+		</a>
+	</div>
+</section>
+</div>
+<section id="about-section">
+	<h1> About KiT</h1>
+</section>
+
+<section id="contact-section">
+	<h1> Contact Us</h1>
+</section>
+</div>
+<div class="row">
+	<footer class="footer-section col-md-12" >
+	<ul style="list-style: none;" class="list-inline">
+		<li><a href="">Home</a> | </li>
+		<li><a href="">Our Blog</a> | </li>
+		<li><a href="">About Us</a> | </li>
+		<li><a href="">Contact Us</a></li>
+	</ul>
+	<ul class="list-inline" style="list-style: none;">
+		<li><i class="fa fa-facebook-official"></i></li>
+		<li><i class="fa fa-twitter-square"></i></li>
+		<li><i class="fa fa-linkedin-square"></i></li>
+		<li><i class="fa fa-instagram"></i></li>
+	</ul>
+	<p>Copyright 2017 Kit</p>
+	</footer>
     </div>
   </body>
 </html>
