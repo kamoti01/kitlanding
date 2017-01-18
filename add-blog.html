@@ -1,0 +1,45 @@
+<div class="container-fluid add-blog-entry">
+	<div class="row">
+		<a href="#/bloges" class="col-md-2" title="back">
+			<i class="fa fa-angle-left fa-3x"></i>
+		</a>
+		<h1 class="col-md-10">Add new blog entry</h1>
+	</div>
+	<div class="blog row">
+	<form class="blog-entry col-md-12">
+		<div class="form-group row">
+			<label for="title-text-input" class="col-md-2 col-form-label">Title</label>
+			<div class="col-md-10">
+				<input class="form-control" type="text" value="blog title" id="title-text-input" ng-model="blog.title"></input>
+			</div>
+		</div>
+		<div class="form-group row">
+			<label for="media-text-input" class="col-md-2 col-form-label">Media</label>
+			<div class="col-md-10">
+				<input class="form-control" type="text" value="blog media" id="media-text-input" ng-model="blog.media"></input>
+			</div>
+		</div>
+		<div class="form-group row">
+			<label for="author-text-input" class="col-md-2 col-form-label">Author</label>
+			<div class="col-md-10">
+				<input class="form-control" type="text" value="blog author" id="author-text-input" ng-model="blog.author"></input>
+			</div>
+		</div>
+		<!--div class="form-group row">
+			<label for="entry-text-input" class="col-md-2 col-form-label">Entry</label-->
+			<div class="col-md-10">
+			<!--textarea class="form-control" type="text" value="blog entry " id="entry-text-input" ng-model="blog.entry"-->
+				<!--div class="ng-scope">
+			        <br>
+			        <div class="container lighter" style="background-color: wheat;">
+			            <div text-angular ng-model="blog.entry" name="demo-editor" ta-text-editor-class="clearfix border-around container" ta-html-editor-class="border-around"></div>
+			        </div>
+			        <br>
+	    		</div-->
+				
+			</div>
+		<!--/div-->
+		<input type="button" class="btn btn-success" value="Save Entry" ng-click = "save()"></input>
+	</form>
+	</div>
+</div>
