@@ -156,6 +156,10 @@ section {
 	.kit-apps .col-md-2.hidden-col {
 		display: none;	
 	}
+	.kit-apps li {
+		width: initial;
+		border-radius: 10px;
+	}
 }
 #about-section {
 	height: 200px;
