@@ -16,7 +16,7 @@
     <link rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
   </head>
     <body style = 'background: #0056aa;color:white;text-align:center;font-family: "Roboto condensed", helvetica, arial, sans-serif;text-rendering: optimizeLegibility;font-size:2em;font-weight:800;'>
-    <nav class='navbar navbar-default'>
+    <nav class='navbar navbar-default' ng-view>
       <div class='container-fluid'>
         <div class='navbar-header'>
           <button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#bs-example-navbar-collapse-1' aria-expanded='false'></button>
@@ -41,7 +41,7 @@
         </div>
       </div>
     </nav>
-    <div class="container-fluid" ng-view>
+    <div class="container-fluid">
       
 <header>
 	<div class="header-statement-container">
