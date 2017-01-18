@@ -4,7 +4,7 @@ var app = angular.module('Blogpage', ['ngResource','ngRoute']);
 app.config(['$routeProvider', function($routeProvider){
 	$routeProvider
 		.when('/', {
-			templateUrl: 'partials/home.html',
+			templateUrl: 'partials/index.html',
 			controller: 'HomeCtrl'
 		})
 		.when('/bloges', {
