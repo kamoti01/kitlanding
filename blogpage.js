@@ -43,10 +43,10 @@ app.config(['$locationProvider', function($locationProvider){
 app.controller('HomeCtrl', ['$scope', '$location', '$anchorScroll','$routeParams',
   function($scope, $location, $anchorScroll, $timeout, $routeParams) {
     $scope.gotoBlog = function(id) {   	
-    	//$timeout(function() {
+    	$timeout(function() {
     		$location.hash(id);
     		$anchorScroll();
-    	//}, 800);
+    	}, 800);
     	
     };
 }]);
