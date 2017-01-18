@@ -1,4 +1,4 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
   $('.img-carousel-nav').slick({
   dots: true,
   infinite: false,
@@ -35,3 +35,4 @@ $(document).ready(function(){
   ]
 });
 });
+*/
