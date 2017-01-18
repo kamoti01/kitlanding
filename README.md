@@ -1,1 +1,1 @@
-# Static version of kit landing website. url: kitlanding.github.io
+# Static version of kit landing website. url: https://kamoti01.github.io/kitlanding.github.io 
