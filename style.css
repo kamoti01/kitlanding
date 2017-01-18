@@ -20,6 +20,15 @@ h1.kit-header a{
 h1.kit-header a:hover{
 	text-decoration: none;
 }
+h1.kit-header a:visited{
+	text-decoration: none;
+}
+h1.kit-header a:active{
+	text-decoration: none;
+}
+h1.kit-header a:focus{
+	text-decoration: none;
+}
 .kit-apps {
 	margin-top: 50px;
 }
