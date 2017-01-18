@@ -4,25 +4,25 @@ var app = angular.module('Blogpage', ['ngResource','ngRoute']);
 app.config(['$routeProvider', function($routeProvider){
 	$routeProvider
 		.when('/', {
-			templateUrl: 'partials/index.html',
+			templateUrl: 'index.html',
 			controller: 'HomeCtrl'
 		})
 		.when('/bloges', {
-			templateUrl: 'partials/bloges.html',
+			templateUrl: 'bloges.html',
 			controller: 'BlogCtrl'
 		})
 		.when('/add-blog', {
-			templateUrl: 'partials/add-blog.html',
+			templateUrl: 'add-blog.html',
 			controller: 'AddBlogCtrl'
 		})
 		.when('/blog/:id', {
-			templateUrl: 'partials/add-blog.html'
+			templateUrl: 'add-blog.html'
 		})
 		.when('/about', {
-			templateUrl: 'partials/about.html'
+			templateUrl: 'about.html'
 		})
 		.when('/contact', {
-			templateUrl: 'partials/contact.html'
+			templateUrl: 'contact.html'
 		})
 		/*.when('/blog-page', {
 			templateUrl: 'partials/bloges.html',
