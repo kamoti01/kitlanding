@@ -31,7 +31,8 @@ h1.kit-header a:hover{
 	color: #13a6ea; /*black;*/
 	background: #00123c; /*white;*/
 	height: 200px;
-	border-radius: 5px;
+	width: 200px;
+	border-radius: 50%;
 	padding: 10px;
 }
 .kit-apps p {
